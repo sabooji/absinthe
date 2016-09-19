@@ -1,6 +1,6 @@
 {
   "name": "@syntaxa/absinthe",
-  "version": "1.22.0",
+  "version": "1.23.0",
   "description": "A minimal framework for creating AWS Lambda HTTP applications.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
