@@ -1,10 +1,11 @@
 {
   "name": "@syntaxa/absinthe",
-  "version": "1.21.0",
+  "version": "1.22.0",
   "description": "A minimal framework for creating AWS Lambda HTTP applications.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src --out-dir dist/"
+    "build": "babel src --out-dir dist/",
+    "prepublish": "npm version minor && npm run build && git add . && git commit -m 'Publishing...'"
   },
   "devDependencies": {
     "babel-cli": "^6.2.0",
