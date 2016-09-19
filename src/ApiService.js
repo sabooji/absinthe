@@ -19,8 +19,6 @@ const DEFAULT_OPTIONS = {
 	}
 };
 
-
-
 export default (function(userOptions) {
 
 	const passedInOptions = userOptions !== undefined ? userOptions : {};
