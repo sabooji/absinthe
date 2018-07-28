@@ -1,6 +1,6 @@
 # Absinthe
 
-Absinthe is an small, opinionated framework for developing an API on AWS Lambda. It has been designed to sit behind [mixologist](https://github.com/sabooji/mixologist#readme) whilst the API Gateway in AWS lacks a number of features. It has a similar API to express.js but removes a number of features not required for the specific use case it was created for. You're always welcome to fork and send me a pull request.
+Absinthe is an small, opinionated framework for developing an PoC API on AWS Lambda. It has been designed to sit behind [mixologist](https://github.com/sabooji/mixologist#readme) whilst the API Gateway in AWS lacks a number of features. It has a similar API to express.js but removes a number of features not required for the specific use case it was created for. You're always welcome to fork and send me a pull request.
 
 The API response structure is pre-defined, an example is included below:
 
